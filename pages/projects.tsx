@@ -1,3 +1,6 @@
+/* TODO: ADD TECH STACK SYMBOLS */
+
+
 "use client";
 import React, { useEffect } from "react";
 import { ShootingStars } from "@/components/ui/shooting-stars";
@@ -30,7 +33,7 @@ export const projects = [
   {
     title: "tl;dr",
     description: "Application that takes a query and outputs a summary of the top 5 articles on the topic",
-    link: "/project2",
+    link: "https://github.com/justinsiek/tldr",
   },
   {
     title: "Leetcode Discord Bot",
@@ -47,14 +50,14 @@ export function Projects() {
       border-solid border-2 border-black relative">
     <ShootingStars />
     <StarsBackground />
-    <div className="absolute top-0 left-0 relative right-0 flex flex-col h-full w-full pt-4 px-4 bg-white mix-blend-difference items-center">
+    <div className="absolute top-0 left-0 relative right-0 flex flex-col h-full w-full pt-4 px-4 mix-blend-difference items-center">
       <div className="w-full relative mt-2 px-2">
-        <h1 className="text-8xl text-black font-integralbold -translate-y-2 z-50">PROJECTS</h1>
-        <div className="absolute right-4 top-4">
+        <h1 className="text-7xl text-white font-integralbold -translate-y-2 z-50">PROJECTS</h1>
+        <div className="absolute right-4 top-1">
         <Link href='/'>
         <h1 className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right
-              before:transition-transform before:duration-300 before:scale-x-0 before:bg-black before:absolute before:left-0 before:bottom-0
-              font-integral text-2xl'>
+              before:transition-transform before:duration-300 before:scale-x-0 before:bg-white before:absolute before:left-0 before:bottom-0
+              font-integral text-2xl cursor-none text-white'>
                 HOME</h1>
         </Link>
         </div>
