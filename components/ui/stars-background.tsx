@@ -48,7 +48,7 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
           x: Math.random() * width,
           y: Math.random() * height,
           radius: Math.random() + 0.5,
-          opacity: Math.random() * 0.5 + 0.5,
+          opacity: Math.random(),
           twinkleSpeed: shouldTwinkle
             ? minTwinkleSpeed +
               Math.random() * (maxTwinkleSpeed - minTwinkleSpeed)
