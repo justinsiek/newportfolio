@@ -110,8 +110,8 @@ export const SendButton = ({
         key={String(hovered)}
         animate={{
           scale: hovered ? 0.6 : 1,
-          x: hovered ? [0, -30, 30, -30, 30, 0] : 0,
-          y: hovered ? [0, 30, -30, 30, -30, 0] : 0,
+          x: hovered ? [0, -40, 40, -40, 40, 0] : 0,
+          y: hovered ? [0, 40, -40, 40, -40, 0] : 0,
         }}
         exit={{
           filter: "none",
