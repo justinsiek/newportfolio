@@ -16,9 +16,7 @@ export function Index() {
       border-solid border-2 border-black">
       <ShootingStars />
       <StarsBackground />
-      <div>
         <h1 className="text-8xl text-white font-integralbold -translate-y-2 mix-blend-difference">JUSTIN SIEK</h1>
-      </div>
       <div className="absolute bottom-0 left-0 right-0 flex h-1/2 w-full bg-white mix-blend-difference">
         <div className='absolute flex flex-grow h-1/5 inset-x-0 bottom-0 text-black justify-between items-center px-4 text-xl z-0'>
           <div className='flex-grow text-center font-integral'>
