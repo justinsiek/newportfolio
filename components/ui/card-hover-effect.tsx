@@ -73,7 +73,7 @@ export const Card = ({
         <div className="p-4">{children}</div>
       </div>
       <div className="absolute bottom-2 right-2"> {/* Positioning container */}
-          <Techstacksymbols symbols={symbols} />
+          <Techstacksymbols symbols={symbols ?? []} />
         </div>
     </div>
   );
