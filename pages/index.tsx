@@ -6,11 +6,13 @@ import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 import Cursor from "@/components/cursor";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 
 export function Index() {
 
   return (
+    <>
     <div className="h-screen w-screen flex flex-col justify-center items-center cursor-none " >
     <div className="h-3/4 bg-black flex flex-col items-center justify-center relative w-2/3
       border-solid border-2 border-black">
@@ -51,6 +53,7 @@ export function Index() {
     </div>
     <Cursor />
     </div>
+    </>
   );
 }
 

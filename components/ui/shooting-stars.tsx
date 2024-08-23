@@ -50,7 +50,7 @@ export const ShootingStars: React.FC<ShootingStarsProps> = ({
   minSpeed = 5,
   maxSpeed = 15,
   minDelay = 2000,
-  maxDelay = 4,
+  maxDelay = 4000,
   starColor = "#FFFFFF",
   trailColor = "#FFFFFF",
   starWidth = 20,
@@ -84,7 +84,6 @@ export const ShootingStars: React.FC<ShootingStarsProps> = ({
   }, [minSpeed, maxSpeed, minDelay, maxDelay]);
 
   useEffect(() => {
-    console.log("star", star);
     const moveStar = () => {
       if (star) {
         setStar((prevStar) => {
