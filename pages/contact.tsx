@@ -32,13 +32,13 @@ export function About() {
         </Link>
         </div>
       </div>
-        <div className="w-4/5 h-full flex flex-col justify-center items-center mb-4">
-          <input type="text" className="w-full h-14 text-3xl font-integral border-2 border-black cursor-none 
+        <div className="w-4/5 h-full flex flex-col justify-center items-center">
+          <input type="text" className="w-full h-1/7 text-3xl font-integral border-2 border-black cursor-none 
             placeholder:text-black px-2 mb-4 ml-4" placeholder="Name" />
-          <input type="text" className="w-full h-14 text-3xl font-integral border-2 border-black cursor-none 
+          <input type="text" className="w-full h-1/7 text-3xl font-integral border-2 border-black cursor-none 
             placeholder:text-black px-2 my-4 ml-4" placeholder="Email" />
-          <textarea className="w-full h-72 text-2xl font-integral border-2 border-black cursor-none 
-            placeholder:text-black p-2 mt-4 mb-8 ml-4 resize-none" placeholder="Message" />
+          <textarea className="w-full h-1/2 text-2xl font-integral border-2 border-black cursor-none 
+            placeholder:text-black px-2 mt-4 mb-8 ml-4 resize-none" placeholder="Message" />
           <SendButton onClick={handleClick}>{submit}</SendButton>
         </div>
     </div>

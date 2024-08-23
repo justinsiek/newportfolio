@@ -34,7 +34,6 @@ export function About() {
         <h1 className="text-2xl font-integral text-black">University of California, Irvine</h1>
         <h1 className="text-2xl font-integral text-black">Computer Science</h1>
         <h1 className="text-2xl font-integral text-black">Class of 2026</h1>
-        <h1 className="text-2xl font-integral text-black">Stargazer</h1>
         
       </div>
     </div>

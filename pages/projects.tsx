@@ -14,31 +14,36 @@ export const projects = [
     title: "Sonder",
     description: "Full stack social media platform that preserves anonymity through blockchain systems",
     link: "https://github.com/justinsiek/Sonder",
+    symbols: ["react", "tailwind_css", "metamask"]
   },
   {
     title: "Twitter Sentiment Stock Trader",
     description: "Twitter bot that scrapes self instanced twitter clone and trades if mass sentiment is past a threshold",
     link: "https://github.com/justinsiek/TwitterSentimentStockTrader",
+    symbols: ["pytorch", "postgresql", "python"]
   },
   {
     title: "Stock Analysis Viewer",
     description: "Interface that displays candlestick chart of a stock, highlights major drops and gains, summarizes and displays causes",
     link: "https://github.com/justinsiek/Stock-Viewer",
+    symbols: ["pytorch", "react", "tailwind_css", "python"]
+  },
+  {
+    title: "Request and Signoff Form",
+    description: "Advanced Multi Step Form Which Allows For Requests And Various levels of approvals, with authentication",
+    symbols: ["react", "tailwind_css", "postgresql", "python"]
   },
   {
     title: "Sudoku Solver",
     description: "Program that takes a picture of a sudoku puzzle and outputs its solution",
-    link: "/project1",
+    symbols: ["opencv", "python"]
+    
   },
   {
     title: "tl;dr",
     description: "Application that takes a query and outputs a summary of the top 5 articles on the topic",
     link: "https://github.com/justinsiek/tldr",
-  },
-  {
-    title: "Leetcode Discord Bot",
-    description: "Discord Bot that tracks leetcode progress and provides a leaderboard",
-    link: "https://github.com/justinsiek/Leetcode-Discord-Bot",
+    symbols: ["torch", "react", "tailwind_css", "python"]
   },
 ];
 

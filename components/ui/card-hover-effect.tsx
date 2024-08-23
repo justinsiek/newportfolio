@@ -2,6 +2,8 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import Techstacksymbols from "./techstacksymbols";
+
 
 export const HoverEffect = ({
   items,
@@ -11,6 +13,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
+    symbols: string[];
   }[];
   className?: string;
 }) => {
@@ -39,9 +42,10 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          <Card symbols={item.symbols}>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+            
           </Card>
         </a>
       ))}
@@ -52,20 +56,25 @@ export const HoverEffect = ({
 export const Card = ({
   className,
   children,
+  symbols,
 }: {
   className?: string;
   children: React.ReactNode;
+  symbols?: string[];
 }) => {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full overflow-hidden bg-white border border-transparent relative z-20 cursor-none",
+        "relative rounded-2xl h-full w-full overflow-hidden bg-white border border-transparent relative z-20 cursor-none",
         className
       )}
     >
       <div className="relative z-50">
         <div className="p-4">{children}</div>
       </div>
+      <div className="absolute bottom-2 right-2"> {/* Positioning container */}
+          <Techstacksymbols symbols={symbols} />
+        </div>
     </div>
   );
 };

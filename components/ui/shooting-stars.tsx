@@ -25,27 +25,32 @@ interface ShootingStarsProps {
 }
 
 const getRandomStartPoint = () => {
+  const componentWidth = window.innerWidth * (2 / 3);
+  const componentHeight = window.innerHeight * (3 / 4);
+  const leftOffset = (window.innerWidth - componentWidth) / 2;
+  const topOffset = (window.innerHeight - componentHeight) / 2;
   const side = Math.floor(Math.random() * 4);
-  const offset = Math.random() * window.innerWidth;
+  const offsetX = Math.random() * componentWidth + leftOffset;
+  const offsetY = Math.random() * componentHeight + topOffset;
 
   switch (side) {
     case 0:
-      return { x: offset, y: 0, angle: 45 };
+      return { x: offsetX, y: topOffset, angle: 45 };
     case 1:
-      return { x: window.innerWidth, y: offset, angle: 135 };
+      return { x: leftOffset + componentWidth, y: offsetY, angle: 135 };
     case 2:
-      return { x: offset, y: window.innerHeight, angle: 225 };
+      return { x: offsetX, y: topOffset + componentHeight, angle: 225 };
     case 3:
-      return { x: 0, y: offset, angle: 315 };
+      return { x: leftOffset, y: offsetY, angle: 315 };
     default:
-      return { x: 0, y: 0, angle: 45 };
+      return { x: leftOffset, y: topOffset, angle: 45 };
   }
 };
 export const ShootingStars: React.FC<ShootingStarsProps> = ({
-  minSpeed = 10,
-  maxSpeed = 20,
-  minDelay = 1000,
-  maxDelay = 2000,
+  minSpeed = 5,
+  maxSpeed = 15,
+  minDelay = 2000,
+  maxDelay = 4,
   starColor = "#FFFFFF",
   trailColor = "#FFFFFF",
   starWidth = 20,
@@ -79,6 +84,7 @@ export const ShootingStars: React.FC<ShootingStarsProps> = ({
   }, [minSpeed, maxSpeed, minDelay, maxDelay]);
 
   useEffect(() => {
+    console.log("star", star);
     const moveStar = () => {
       if (star) {
         setStar((prevStar) => {
