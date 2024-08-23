@@ -31,11 +31,13 @@ export const projects = [
   {
     title: "Request and Signoff Form",
     description: "Advanced Multi Step Form Which Allows For Requests And Various levels of approvals, with authentication",
+    link: "github.com/justinsiek/",
     symbols: ["react", "tailwind_css", "postgresql", "python"]
   },
   {
     title: "Sudoku Solver",
     description: "Program that takes a picture of a sudoku puzzle and outputs its solution",
+    link: "github.com/justinsiek/",
     symbols: ["opencv", "python"]
     
   },
