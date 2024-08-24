@@ -8,6 +8,7 @@ import { StarsBackground } from "@/components/ui/stars-background";
 import Cursor from "@/components/cursor";
 import Link from "next/link";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { motion } from "framer-motion";
 
 export const projects = [
   {
@@ -48,6 +49,7 @@ export const projects = [
     symbols: ["torch", "react", "tailwind_css", "python"]
   },
 ];
+
 
 export function Projects() {
 
