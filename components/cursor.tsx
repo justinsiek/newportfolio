@@ -14,7 +14,7 @@ const Cursor = () => {
   , []);
 
   return (
-    <div className='fixed pointer-events-none w-6 h-6 rounded-full bg-white mix-blend-difference z-50 sm:opacity-0' 
+    <div className='fixed pointer-events-none w-6 h-6 rounded-full bg-white mix-blend-difference z-50 opacity-100' 
         style={{
           left: cursorPosition.x,
           top: cursorPosition.y,
