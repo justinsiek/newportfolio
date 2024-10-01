@@ -24,7 +24,7 @@ export function About() {
         <Link href='/'>
         <h1 className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full lg:before:h-1 before:origin-right
               before:transition-transform before:duration-300 before:scale-x-0 before:bg-black before:absolute before:left-0 before:bottom-0
-              font-integral cursor-none lg:text-2xl sm:text-6xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0 
+              font-integral cursor-none lg:text-2xl sm:text-6xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0.5 
               sm:mt-8 sm:mr-8 lg:mt-0 sm:mr-0'>
                 HOME</h1>
         </Link>

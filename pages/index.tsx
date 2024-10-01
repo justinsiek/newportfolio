@@ -25,7 +25,7 @@ export function Index() {
               <Link href='/about'>
                 <h1 className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full lg:before:h-1 before:origin-right
                   before:transition-transform before:duration-300 before:scale-x-0 before:bg-black before:absolute before:left-0 before:bottom-0 cursor-none
-                  sm:text-5xl lg:text-2xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0'>
+                  sm:text-5xl lg:text-2xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0.5'>
                   ABOUT</h1>
               </Link>
             </div>
@@ -35,7 +35,7 @@ export function Index() {
               <Link href='/projects'>
                 <h1 className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full lg:before:h-1 before:origin-right
                   before:transition-transform before:duration-300 before:scale-x-0 before:bg-black before:absolute before:left-0 before:bottom-0 cursor-none
-                  sm:text-5xl lg:text-2xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0'>
+                  sm:text-5xl lg:text-2xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0.5'>
                   PROJECTS</h1>
               </Link>
             </div>
@@ -45,7 +45,7 @@ export function Index() {
             <Link href='/contact'>
               <h1 className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full lg:before:h-1 before:origin-right
                 before:transition-transform before:duration-300 before:scale-x-0 before:bg-black before:absolute before:left-0 before:bottom-0 cursor-none
-                sm:text-5xl lg:text-2xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0'>
+                sm:text-5xl lg:text-2xl sm:before:h-2 sm:before:translate-y-4 lg:before:translate-y-0.5'>
                 CONTACT</h1>
             </Link>
             </div>

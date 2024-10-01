@@ -64,14 +64,13 @@ export function Projects() {
         <h1 className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full lg:before:h-1 before:origin-right
               before:transition-transform before:duration-300 before:scale-x-0 before:bg-white before:absolute before:left-0 before:bottom-0
               font-integral lg:text-2xl cursor-none text-white sm:text-6xl sm:before:h-2 sm:before:translate-y-4 sm:mt-8 lg:mt-1 lg:mr-0
-              lg:before:-translate-y-0'>
+              lg:before:-translate-y-0.5'>
                 HOME</h1>
         </Link>
         </div>
       </div>
       
       
-
       <div className="flex flex-col items-center h-full justify-center">
         <HoverEffect items={projects} />
       </div>
