@@ -77,7 +77,7 @@ export function Contact() {
               value={formData.message}
               onChange={handleChange}
             />
-            <SendButton onClick={handleClick} className="p-2 bg-black text-white">
+            <SendButton onClick={handleClick} className="bg-black text-white">
               {submit}
             </SendButton>
           </div>

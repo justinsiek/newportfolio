@@ -45,7 +45,7 @@ export const SendButton = ({
       }, 6000);
     }}
       ref={ref}
-      className="relative hover:bg-black group/cover inline-block bg-black px-2 py-2 lg:w-1/5 lg:h-1/8 
+      className="relative hover:bg-black group/cover inline-block bg-black px-2 py-2 lg:w-1/3 lg:h-1/8 
       flex justify-center items-center transition duration-200 lg:text-2xl font-bold rounded-2xl sm:text-4xl sm:w-1/2 sm:h-[8%]"
     >
       <AnimatePresence>
