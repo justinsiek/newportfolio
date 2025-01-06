@@ -9,16 +9,29 @@ import { motion } from "framer-motion";
 
 export const projects = [
   {
+    title: "UI Component Manager",
+    description: "Full stack web application and package manager, where users can upload components, and import components through the package manager CLI tool.",
+    link: "https://github.com/noahk004/ui-component-manager",
+    symbols: ["react", "tailwind_css", "postgresql"]
+  },
+  {
+    title: "CodeBattles",
+    description: "Full stack web application where users can compete against friends or online to complete coding challenges.",
+    link: "https://github.com/justinsiek/CodeBattles",
+    symbols: ["react", "tailwind_css", "postgresql", "python"]
+  },
+  {
     title: "Sonder",
     description: "Full stack social media platform that preserves anonymity through blockchain systems",
     link: "https://github.com/justinsiek/Sonder",
     symbols: ["react", "tailwind_css", "metamask"]
   },
   {
-    title: "Twitter Sentiment Stock Trader",
-    description: "Twitter bot that scrapes self instanced twitter clone and trades if mass sentiment is past a threshold",
-    link: "https://github.com/justinsiek/TwitterSentimentStockTrader",
-    symbols: ["pytorch", "postgresql", "python"]
+    title: "Stock Pattern Indicator",
+    description: "Full stack web application that extracts common stock patterns, and alerts user when patterns are confirmed within tracked stocks.",
+    link: "https://github.com/justinsiek/StockPatternIndicator",
+    symbols: ["react", "tailwind_css", "postgresql", "python"]
+    
   },
   {
     title: "Stock Analysis Viewer",
@@ -31,19 +44,6 @@ export const projects = [
     description: "Advanced Multi Step Form Which Allows For Requests And Various levels of approvals, with authentication",
     link: "github.com/justinsiek/",
     symbols: ["react", "tailwind_css", "postgresql", "python"]
-  },
-  {
-    title: "Sudoku Solver",
-    description: "Program that takes a picture of a sudoku puzzle and outputs its solution",
-    link: "github.com/justinsiek/",
-    symbols: ["opencv", "python"]
-    
-  },
-  {
-    title: "tl;dr",
-    description: "Application that takes a query and outputs a summary of the top 5 articles on the topic",
-    link: "https://github.com/justinsiek/tldr",
-    symbols: ["torch", "react", "tailwind_css", "python"]
   },
 ];
 
