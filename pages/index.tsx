@@ -12,7 +12,7 @@ export function Index() {
 
   return (
     <>
-    <div className="h-screen w-screen flex flex-col sm:justify-start lg:justify-center items-center cursor-none overflow-hidden" >
+    <div className="h-100vh w-screen flex flex-col sm:justify-start lg:justify-center items-center cursor-none overflow-hidden" >
     <div className="lg:h-3/4 sm:h-[87.5%] bg-black flex flex-col items-center justify-center relative lg:w-2/3 sm:w-full
       lg:border-solid lg:border-2 lg:border-black sm:border-none">
       <ShootingStars />

@@ -34,7 +34,7 @@ export function Contact() {
   };
 
   return (
-    <div className="h-screen w-screen flex flex-col sm:justify-start lg:justify-center items-center cursor-none overflow-hidden">
+    <div className="h-100vh w-screen flex flex-col sm:justify-start lg:justify-center items-center cursor-none overflow-hidden">
       <div className="lg:h-3/4 sm:h-[86%] bg-black flex flex-col items-center justify-center relative lg:w-2/3 lg:border-solid lg:border-2 lg:border-black
         sm:h-screen sm:w-full sm:border-none">
         <ShootingStars />
